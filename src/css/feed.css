@@ -1,0 +1,73 @@
+.call-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.calls-date {
+    background-image: linear-gradient(to right, #D1CFCF 30%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 5px 1px;
+    background-repeat: repeat-x;
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+}
+
+span {
+    color: #D1CFCF;
+    font-weight: bold;
+    font-size: smaller;
+    background: #f2f2f2;
+    padding: 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.call-list-item {
+    height: 50px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    border-color: #E8E8E8;
+    text-align: left;
+    background: #fffdfd;
+    padding: 1px 1px;
+    margin: 10px;
+}
+
+.feed-img {
+    position: relative;
+    float: left;
+    left: 10px;
+    top: 12px;
+}
+
+.call-time {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    color: #A09E9E;
+    background-image: linear-gradient(to bottom, #D1CFCF 40%, rgba(255, 255, 255, 0) 20%);
+    background-position: left;
+    background-size: 1px 5px;
+    background-repeat: repeat-y;
+    padding: 3px 0px;
+}
+
+.caller-callee-info {
+    position: relative;
+    top: 10px;
+    margin-left: 45px;
+    width: 60%;
+}
+
+.caller {
+    font-size: medium;
+    color: #6a6868;
+}
+
+.callee {
+    font-size: smaller;
+    margin-top: 5px;
+    color: #A09E9E;
+}
